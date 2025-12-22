@@ -1,0 +1,87 @@
+{
+    "age_groups": [
+        {
+            "range": "0-5",
+            "description": "Early childhood - Time feels incredibly slow as everything is new",
+            "perception_factor": 0.2
+        },
+        {
+            "range": "6-12",
+            "description": "Childhood - School routines begin, years start passing faster",
+            "perception_factor": 0.4
+        },
+        {
+            "range": "13-19",
+            "description": "Adolescence - Rapid physical and emotional changes",
+            "perception_factor": 0.6
+        },
+        {
+            "range": "20-29",
+            "description": "Twenties - Independence, career starts, time accelerates",
+            "perception_factor": 0.8
+        },
+        {
+            "range": "30-39",
+            "description": "Thirties - Settling down, family, career progression",
+            "perception_factor": 1.0
+        },
+        {
+            "range": "40-49",
+            "description": "Forties - Midlife, established career, time speeds up",
+            "perception_factor": 1.2
+        },
+        {
+            "range": "50-59",
+            "description": "Fifties - Empty nest, peak earnings, reflection years",
+            "perception_factor": 1.4
+        },
+        {
+            "range": "60-69",
+            "description": "Sixties - Retirement planning, grandchildren, wisdom years",
+            "perception_factor": 1.6
+        },
+        {
+            "range": "70-79",
+            "description": "Seventies - Active retirement, legacy building",
+            "perception_factor": 1.8
+        },
+        {
+            "range": "80-89",
+            "description": "Eighties - Elder years, life review, slower pace",
+            "perception_factor": 2.0
+        },
+        {
+            "range": "90-99",
+            "description": "Nineties - Nonagenarian, rare longevity achievement",
+            "perception_factor": 2.2
+        },
+        {
+            "range": "100+",
+            "description": "Centenarian - Living history, remarkable achievement",
+            "perception_factor": 2.5
+        }
+    ],
+    "milestones": {
+        "first_birthday": 1,
+        "start_school": 5,
+        "preteen": 10,
+        "teenager": 13,
+        "driver_license": 16,
+        "voting_age": 18,
+        "legal_drinking": 21,
+        "quarter_century": 25,
+        "peak_career": 35,
+        "midlife": 40,
+        "half_century": 50,
+        "senior_discounts": 55,
+        "early_retirement": 62,
+        "full_retirement": 67,
+        "biblical_span": 70,
+        "average_lifespan": 73,
+        "octogenarian": 80,
+        "nonagenarian": 90,
+        "centenarian": 100,
+        "supercentenarian": 110,
+        "record_breaker": 122
+    }
+}

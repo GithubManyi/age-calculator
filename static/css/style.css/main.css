@@ -1,0 +1,509 @@
+/* Import all modular CSS files */
+@import url('base/reset.css');
+@import url('base/tokens.css');
+@import url('base/typography.css');
+@import url('themes/light.css');
+@import url('themes/dark.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/tabs.css'); 
+@import url('components/modal.css');
+@import url('components/calculator.css');
+@import url('layouts/header.css');
+@import url('layouts/grid.css');
+@import url('components/hero.css');
+/* Add to main.css imports */
+@import url('components/results.css');
+
+
+
+
+/* Rest of your main.css remains the same */
+.features-section {
+    max-width: 1400px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--primary-blue);
+}
+
+/* Footer */
+.footer {
+    background: var(--card);
+    padding: 4rem 2rem 2rem;
+    margin-top: 4rem;
+    border-top: 2px solid var(--border);
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form Elements */
+.date-input {
+    position: relative;
+}
+
+.date-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.date-input input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    font-size: 1rem;
+    background: var(--card);
+    color: var(--text-primary);
+    transition: all 0.3s;
+    font-family: inherit;
+}
+
+.date-input input:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.1);
+}
+
+/* Time Perception Gauge */
+#timePerceptionGauge {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(100%); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes miniFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes miniFadeOutIn {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Make the body a flex container */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0;
+}
+
+/* Make main content grow to push footer down */
+.container, 
+main {
+    flex: 1; /* This makes the main content grow to fill available space */
+}
+
+/* Footer will automatically stay at the bottom */
+.footer {
+    margin-top: auto; /* Pushes footer to bottom */
+}
+
+/* Fix for results being hidden under header */
+#resultsSectionWrapper {
+    scroll-margin-top: 100px; /* For anchor links */
+    position: relative;
+}
+
+/* Add some space at the top of results */
+.results-section {
+    padding-top: 2rem;
+}
+
+/* Ensure header doesn't overlap */
+.header {
+    position: relative; /* Change if it's fixed/sticky */
+    z-index: 100;
+}
+
+/* If header is fixed, add body padding */
+body {
+    padding-top: 0; /* Adjust if header is fixed */
+}
+
+/* AI Badge */
+.ai-badge {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* ===== NOTIFICATION STYLES ===== */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: var(--primary-blue);
+    color: white;
+    border-radius: 8px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: var(--shadow);
+    animation: slideIn 0.3s ease;
+}
+
+.notification-error {
+    background: #ef4444;
+}
+
+.notification-success {
+    background: #10b981;
+}
+
+.notification-info {
+    background: #3b82f6;
+}
+
+.notification-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 0 5px;
+}
+
+.notification-close:hover {
+    opacity: 0.8;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOut {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+/* ===== EXPORT BUTTONS ===== */
+.export-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-export {
+    background: var(--background);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    flex: 1;
+    min-width: 120px;
+}
+
+.btn-export:hover {
+    background: var(--primary-blue);
+    color: white;
+    border-color: var(--primary-blue);
+}
+
+/* ===== ACCESSIBILITY ===== */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+:focus {
+    outline: 3px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    .age-value {
+        color: #0000FF !important;
+        font-weight: 900 !important;
+    }
+    
+    .btn {
+        border: 2px solid #000000 !important;
+    }
+}
+
+.ad-container {
+    transform: translateY(-57px);
+    max-width: 1300px;
+    margin: 25px auto;
+    text-align: center;
+}
+.ad-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.ad-wrapper {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 15px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ad-placeholder {
+    background: linear-gradient(90deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+[data-theme="dark"] .ad-wrapper {
+    background: #1e1e1e;
+    border-color: #444;
+}
+@media (max-width: 768px) {
+    .ad-container {
+        margin: 15px;
+    }
+    .ad-wrapper {
+        padding: 10px;
+    }
+}
+
+/* ================================
+   MOBILE SAFETY & REAL-DEVICE FIXES
+   ================================ */
+
+/* Prevent iOS / Android font auto-scaling */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Prevent horizontal scrolling on mobile */
+body {
+    overflow-x: hidden;
+}
+
+/* Disable ad vertical offset on mobile */
+@media (max-width: 768px) {
+    .ad-container {
+        transform: none;
+    }
+}
+
+/* Ensure notifications fit small screens */
+@media (max-width: 480px) {
+    .notification {
+        left: 10px;
+        right: 10px;
+        min-width: auto;
+        max-width: none;
+    }
+}
+
+/* ================================
+   FIX AD / CALCULATOR OVERLAP
+   ================================ */
+
+/* Mobile: keep ads in normal document flow */
+@media (max-width: 768px) {
+    .ad-container {
+        transform: none !important;
+        margin-bottom: 1.5rem; /* space before calculator */
+    }
+}
+
+
+/* =====================================================
+   MOBILE + ADSENSE STABILITY FIXES (PRODUCTION READY)
+   ===================================================== */
+
+/* Prevent font zoom issues on real phones */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Prevent horizontal scrolling on mobile */
+body {
+    overflow-x: hidden;
+}
+
+/* ---------- AD CONTAINER STABILITY ---------- */
+
+/* Desktop ad positioning (kept as-is) */
+.ad-container {
+    max-width: 1300px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+/* Ensure ad wrapper reserves space (CLS prevention) */
+.ad-wrapper {
+    min-height: 120px; /* mobile-safe minimum */
+}
+
+/* Dark mode remains intact */
+[data-theme="dark"] .ad-wrapper {
+    background: #1e1e1e;
+    border-color: #444;
+}
+
+/* ---------- MOBILE FIXES ---------- */
+@media (max-width: 768px) {
+
+    /* Remove transform to keep normal document flow */
+    .ad-container {
+        transform: none !important;
+        margin: 20px 15px 30px;
+    }
+
+    /* Reserve space so calculator never overlaps */
+    .ad-wrapper {
+        min-height: 140px;
+        padding: 10px;
+    }
+
+    /* Calculator spacing safety */
+    .calculator-wrapper {
+        margin-top: 0;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* ---------- VERY SMALL SCREENS ---------- */
+@media (max-width: 480px) {
+
+    /* Ads need more vertical room on tiny phones */
+    .ad-wrapper {
+        min-height: 160px;
+    }
+
+    /* Notifications must not overflow screen */
+    .notification {
+        left: 10px;
+        right: 10px;
+        min-width: auto;
+        max-width: none;
+    }
+}
+
+/* =========================================
+   UNIFIED WIDTH FOR CALCULATOR + ADS
+   ========================================= */
+
+/* Shared width system */
+.calculator-wrapper,
+.ad-container {
+    max-width: 900px;   /* ← CHANGE THIS NUMBER if you want wider */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile stays full-width but aligned */
+@media (max-width: 768px) {
+    .calculator-wrapper,
+    .ad-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

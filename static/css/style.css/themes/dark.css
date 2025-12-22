@@ -1,0 +1,9 @@
+[data-theme="dark"] {
+    --background: var(--background-dark);
+    --card: var(--card-dark);
+    --text-primary: var(--text-dark);
+    --text-secondary: var(--text-secondary-dark);
+    --border: var(--border-dark);
+    --shadow: var(--shadow-dark);
+}
+

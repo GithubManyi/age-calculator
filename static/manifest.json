@@ -1,0 +1,102 @@
+{
+  "name": "AgeMaster Pro",
+  "short_name": "AgeMaster",
+  "description": "Ultimate age calculator with planetary insights and time perception analysis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4361ee",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["utilities", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "/static/images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Calculate Age",
+      "short_name": "Calculate",
+      "description": "Quick age calculation",
+      "url": "/?action=calculate",
+      "icons": [{ "src": "/static/images/shortcut-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Planetary Ages",
+      "short_name": "Planets",
+      "description": "View age on different planets",
+      "url": "/?tab=planets",
+      "icons": [{ "src": "/static/images/planet-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Life Calendar",
+      "short_name": "Calendar",
+      "description": "View life calendar visualization",
+      "url": "/?tab=calendar",
+      "icons": [{ "src": "/static/images/calendar-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AgeMaster Pro Desktop Interface"
+    },
+    {
+      "src": "/static/images/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "AgeMaster Pro Mobile Interface"
+    }
+  ]
+}

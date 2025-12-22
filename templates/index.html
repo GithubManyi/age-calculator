@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeMaster - Ultimate Age Calculator</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animations.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css/theme/dark.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css/theme/light.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/tabs.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/help-modal.css') }}">
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="{{ url_for('static', filename='js/error-handler.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/data-manager.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/export.js') }}"></script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9353540350976398"
+            crossorigin="anonymous"></script>
+
+    <!-- Responsive Ad & Layout CSS -->
+    <style>
+        /* Ad container */
+        .ad-container {
+            max-width: 1200px;
+            margin: 25px auto;
+            text-align: center;
+            padding: 0 10px;
+        }
+        .ad-label {
+            font-size: 0.8rem;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .ad-wrapper {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 15px;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ad-placeholder {
+            background: linear-gradient(90deg, #4f46e5, #7c3aed);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        /* Dark theme support */
+        [data-theme="dark"] .ad-wrapper {
+            background: #1e1e1e;
+            border-color: #444;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .ad-container {
+                margin: 15px;
+            }
+            .ad-wrapper {
+                padding: 10px;
+            }
+            .calculator-card {
+                padding: 15px;
+            }
+            .quick-dates {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .quick-btn {
+                flex: 1 1 45%;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header animate-slide-down">
+        {% include 'components/header.html' %}
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-gradient-animate">
+        {% include 'partials/hero.html' %}
+    </section>
+
+    <!-- ===== HERO AD ===== -->
+    <div class="ad-container">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-wrapper">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9353540350976398"
+                 data-ad-slot="7146575772"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <div class="ad-placeholder" style="display:none;">
+                Ad Loading...<br>
+                <small>728×90 Leaderboard</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calculator Section -->
+    <main class="container">
+        <div class="calculator-wrapper">
+            <div class="calculator-card animate-fade-in">
+                <h2><i class="fas fa-calculator"></i> Calculate Your Age</h2>
+                <p class="subtitle">Enter your birth date to discover amazing insights about your age</p>
+
+                <div class="input-group">
+                    <div class="date-input">
+                        <label for="birthDate"><i class="fas fa-birthday-cake"></i> Birth Date</label>
+                        <input type="date" id="birthDate">
+                    </div>
+                    <div class="date-input">
+                        <label for="targetDate"><i class="fas fa-calendar-alt"></i> Calculate Age As Of Today</label>
+                        <input type="date" id="targetDate">
+                    </div>
+                </div>
+
+                <button id="calculateBtn" class="calculate-btn animate-pulse-glow">
+                    <i class="fas fa-calculator"></i> Calculate Age
+                </button>
+
+                <div class="quick-dates">
+                    <button class="quick-btn" data-years="18">18 Years Ago</button>
+                    <button class="quick-btn" data-years="21">21 Years Ago</button>
+                    <button class="quick-btn" data-years="30">30 Years Ago</button>
+                    <button class="quick-btn" data-years="50">50 Years Ago</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSectionWrapper" class="hidden">
+            {% include 'partials/results.html' %}
+        </div>
+
+        <!-- ===== SECOND AD ===== -->
+        <div class="ad-container" style="margin-top: 40px;">
+            <div class="ad-label">Sponsored</div>
+            <div class="ad-wrapper" style="min-height: 250px;">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9353540350976398"
+                     data-ad-slot="5548770689"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-gw-3+1f-3d+2z"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                <div class="ad-placeholder" style="display:none;">
+                    Ad Loading...
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        {% include 'partials/features.html' %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        {% include 'components/footer.html' %}
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/tabs.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/calculator.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/init.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/share.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/tabs-enhanced.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/footer-navigation.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/help-modal.js') }}"></script>
+
+    <!-- AdSense Helper Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const ads = document.querySelectorAll('.adsbygoogle');
+                const placeholders = document.querySelectorAll('.ad-placeholder');
+
+                ads.forEach((ad, index) => {
+                    if (ad.innerHTML.trim() === '') {
+                        if (placeholders[index]) {
+                            placeholders[index].style.display = 'block';
+                        }
+                    }
+                });
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

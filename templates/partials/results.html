@@ -1,0 +1,260 @@
+<section class="results-section animate-fade-in">
+    <!-- Age Display -->
+    <div class="age-display">
+        <h2>Your Age Analysis</h2>
+        <div class="main-age" id="mainAge">0</div>
+        <p class="age-subtitle">Years Old</p>
+        <p class="exact-age">Exactly: <span id="exactAge">0.0000000</span> years</p>
+    </div>
+
+    <!-- Tabs Navigation -->
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="overview">
+            <i class="fas fa-chart-bar"></i> Overview
+        </button>
+        <button class="tab-btn" data-tab="details">
+            <i class="fas fa-info-circle"></i> Details
+        </button>
+        <button class="tab-btn" data-tab="planets">
+            <i class="fas fa-globe-americas"></i> Planets
+        </button>
+        <button class="tab-btn" data-tab="milestones">
+            <i class="fas fa-flag-checkered"></i> Milestones
+        </button>
+        <button class="tab-btn" data-tab="comparison">
+            <i class="fas fa-balance-scale"></i> Comparison
+        </button>
+        <button class="tab-btn" data-tab="charts">
+            <i class="fas fa-chart-line"></i> Charts
+        </button>
+        <button class="tab-btn" data-tab="share">
+            <i class="fas fa-share-alt"></i> Share
+        </button>
+    </div>
+
+    <!-- Tab Contents Container -->
+    <div class="tab-contents-container">
+        <!-- Overview Tab Content -->
+        <div class="tab-content active" id="overview-content">
+            <div class="age-details">
+                <div class="age-card">
+                    <div class="age-value" id="ageMonths">0</div>
+                    <div class="age-label">Months</div>
+                </div>
+                <div class="age-card">
+                    <div class="age-value" id="ageDays">0</div>
+                    <div class="age-label">Days</div>
+                </div>
+                <div class="age-card">
+                    <div class="age-value" id="ageWeeks">0</div>
+                    <div class="age-label">Weeks</div>
+                </div>
+                <div class="age-card">
+                    <div class="age-value" id="ageHours">0</div>
+                    <div class="age-label">Hours</div>
+                </div>
+                <div class="age-card">
+                    <div class="age-value" id="ageMinutes">0</div>
+                    <div class="age-label">Minutes</div>
+                </div>
+                <div class="age-card">
+                    <div class="age-value" id="ageSeconds">0</div>
+                    <div class="age-label">Seconds</div>
+                </div>
+            </div>
+
+            <!-- Quote Card -->
+            <div class="quote-card">
+                <div class="quote-decoration">❝</div>
+                
+                <!-- Quote Content Container -->
+                <div class="quote-content">
+                    <!-- Quote Text (Will be filled by JavaScript) -->
+                    <p class="quote-text" id="quoteText">"The years teach much which the days never know."</p>
+                    
+                    <!-- Quote Author and Metadata -->
+                    <div class="quote-meta">
+                        <span class="quote-author" id="quoteAuthor">- Ralph Waldo Emerson</span>
+                        <span class="quote-tag" id="quoteTag">wisdom</span>
+                        <!-- AI Badge (hidden by default) -->
+                        <span class="ai-badge" id="aiBadge" style="display: none;">🤖 AI</span>
+                    </div>
+                </div>
+                
+                <!-- Refresh Button -->
+                <div class="quote-refresh">
+                    <button class="btn-small" id="refreshQuoteBtn">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Fun Fact -->
+            <div class="fun-fact">
+                <div class="fact-icon" id="funFactIcon">💡</div>
+                <p class="fact-text" id="funFactText">Did you know? Your heart beats about 100,000 times per day!</p>
+            </div>
+        </div>
+
+        <!-- Details Tab Content -->
+        <div class="tab-content" id="details-content">
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-star"></i> Zodiac Sign</h3>
+                    <p id="zodiacSign">--</p>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-dragon"></i> Chinese Zodiac</h3>
+                    <p id="chineseZodiac">--</p>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-birthday-cake"></i> Next Birthday</h3>
+                    <p id="nextBirthday">-- days</p>
+                </div>
+                <div class="detail-card">
+                    <h3><i class="fas fa-calendar-day"></i> Born on a</h3>
+                    <p id="weekdayBorn">--</p>
+                </div>
+            </div>
+
+            <!-- Life Calendar -->
+            <div class="life-calendar">
+                <h3><i class="fas fa-calendar-alt"></i> Life Calendar</h3>
+                <div class="calendar-stats">
+                    <div class="calendar-stat">
+                        <span class="stat-value" id="weeksLived">0</span>
+                        <span class="stat-label">Weeks Experienced So Far</span>
+                    </div>
+                    <div class="calendar-stat">
+                        <span class="stat-value" id="weeksRemaining">0</span>
+                        <span class="stat-label">Estimated Weeks Ahead</span>
+                    </div>
+                    <div class="calendar-stat">
+                        <span class="stat-value" id="percentageLived">0%</span>
+                        <span class="stat-label">Life Progress</span>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="lifeProgress"></div>
+                </div>
+                <div id="calendarVisualization" class="calendar-visualization"></div>
+            </div>
+        </div>
+
+        <!-- Planets Tab Content -->
+        <div class="tab-content" id="planets-content">
+            <h3>Your Age Across the Solar System</h3>
+            <p class="tab-description">Time passes differently on other planets due to their orbital periods</p>
+            
+            <div class="planets-grid" id="planetsContainer">
+                <!-- Planets will be dynamically added here -->
+            </div>
+
+            <div class="planet-chart">
+                <canvas id="planetChartCanvas"></canvas>
+            </div>
+        </div>
+
+        <!-- Milestones Tab Content -->
+        <div class="tab-content" id="milestones-content">
+            <h3>Life Milestones</h3>
+            <div class="milestones-container" id="milestonesContainer">
+                <!-- Milestones will be dynamically added here -->
+            </div>
+            
+            <div class="timeline-container">
+                <h4>Milestone Timeline</h4>
+                <div id="milestoneTimeline"></div>
+            </div>
+        </div>
+
+        <!-- Comparison Tab Content -->
+        <div class="tab-content" id="comparison-content">
+            <div class="comparison-container" id="comparisonContainer">
+                <!-- Comparison data will be dynamically added here -->
+            </div>
+            
+            <div class="comparison-chart">
+                <h4>Age Comparison Chart</h4>
+                <canvas id="ageComparisonChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Charts Tab Content -->
+        <div class="tab-content" id="charts-content">
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h4><i class="fas fa-chart-line"></i> Age Progression</h4>
+                    <canvas id="ageProgressionChart" height="300"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h4><i class="fas fa-globe-americas"></i> Planetary Ages</h4>
+                    <canvas id="planetaryAgesChart" height="300"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h4><i class="fas fa-calendar-alt"></i> Life Calendar</h4>
+                    <canvas id="lifeCalendarChart" height="300"></canvas>
+                </div>
+                
+                <div class="chart-container" style="grid-column: span 2;">
+                    <h4><i class="fas fa-hourglass-half"></i> Time Perception Gauge</h4>
+                    <div id="timePerceptionGauge" style="height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Share Tab Content -->
+        <div class="tab-content" id="share-content">
+            <div class="share-options">
+                <h3>Share Your Age Analysis</h3>
+                
+                <div class="social-sharing">
+                    <a href="#" class="social-btn whatsapp" id="shareWhatsApp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="#" class="social-btn instagram" id="shareInstagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="#" class="social-btn facebook" id="shareFacebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="#" class="social-btn twitter" id="shareTwitter">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+
+                <div class="share-link">
+                    <input type="text" id="shareUrl" readonly>
+                    <button class="btn" id="copyUrl">
+                        <i class="fas fa-copy"></i> Copy Link
+                    </button>
+                </div>
+
+                <div class="share-actions">
+                    <button class="btn" id="qrCodeBtn" onclick="generateQRCode()">
+                        <i class="fas fa-qrcode"></i> QR Code
+                    </button>
+                </div>
+
+                <!-- Export Options Added Here -->
+                <div class="export-options mt-2">
+                    <h4><i class="fas fa-download"></i> Export Results</h4>
+                    <div class="export-buttons">
+                        <button class="btn btn-export" id="exportPDF">
+                            <i class="fas fa-file-pdf"></i> Save as PDF
+                        </button>
+                        <button class="btn btn-export" id="exportImage">
+                            <i class="fas fa-image"></i> Save as Image
+                        </button>
+                        <button class="btn btn-export" id="exportCSV">
+                            <i class="fas fa-file-csv"></i> Export Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

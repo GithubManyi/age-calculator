@@ -1,0 +1,547 @@
+[
+    {
+        "category": "biology",
+        "fact": "You'll blink about 415 million times in an 80-year lifespan.",
+        "icon": "👁️"
+    },
+    {
+        "category": "space",
+        "fact": "You travel through space at 67,000 mph as Earth orbits the Sun.",
+        "icon": "🚀"
+    },
+    {
+        "category": "time",
+        "fact": "By age 30, you've lived approximately 1 billion seconds.",
+        "icon": "⏱️"
+    },
+    {
+        "category": "biology",
+        "fact": "Your body produces about 300 billion new cells every day.",
+        "icon": "🔬"
+    },
+    {
+        "category": "history",
+        "fact": "If you're 20 today, you've lived through 20% of the 21st century.",
+        "icon": "📜"
+    },
+    {
+        "category": "psychology",
+        "fact": "Childhood memories feel longer because they were first experiences.",
+        "icon": "🧸"
+    },
+    {
+        "category": "biology",
+        "fact": "Your fingernails grow about 3.5 mm per month.",
+        "icon": "💅"
+    },
+    {
+        "category": "space",
+        "fact": "On Venus, you'd be younger because its day is longer than its year.",
+        "icon": "♀️"
+    },
+    {
+        "category": "technology",
+        "fact": "The first iPhone was released when today's 18-year-olds were born.",
+        "icon": "📱"
+    },
+    {
+        "category": "biology",
+        "fact": "You'll grow about 950 km of hair in your lifetime.",
+        "icon": "💇"
+    },
+    {
+        "category": "time",
+        "fact": "The average person spends 1.5 years in the bathroom.",
+        "icon": "🚽"
+    },
+    {
+        "category": "space",
+        "fact": "Light from the Sun takes 8 minutes to reach Earth.",
+        "icon": "☀️"
+    },
+    {
+        "category": "biology",
+        "fact": "Your bones are constantly remodeling - you get a new skeleton every 10 years.",
+        "icon": "🦴"
+    },
+    {
+        "category": "history",
+        "fact": "Someone born in 1920 lived through both world wars and the internet age.",
+        "icon": "🌍"
+    },
+    {
+        "category": "psychology",
+        "fact": "Each decade feels shorter than the last due to 'proportional theory'.",
+        "icon": "🧭"
+    },
+    {
+        "category": "biology",
+        "fact": "You'll produce about 25,000 liters of saliva in a lifetime.",
+        "icon": "👅"
+    },
+    {
+        "category": "space",
+        "fact": "You're weightless for 1 second when you jump.",
+        "icon": "🪂"
+    },
+    {
+        "category": "technology",
+        "fact": "The entire internet today could fit on a hard drive from 1990.",
+        "icon": "💾"
+    },
+    {
+        "category": "biology",
+        "fact": "Your heart pumps about 5 liters of blood per minute.",
+        "icon": "❤️"
+    },
+    {
+        "category": "time",
+        "fact": "You'll spend about 4 years eating in an 80-year life.",
+        "icon": "🍽️"
+    },
+    {
+        "category": "space",
+        "fact": "The Moon is moving away from Earth at 3.8 cm per year.",
+        "icon": "🌙"
+    },
+    {
+        "category": "biology",
+        "fact": "You lose about 50-100 hairs every day.",
+        "icon": "💇‍♂️"
+    },
+    {
+        "category": "history",
+        "fact": "The last WWI veteran died in 2012 at age 110.",
+        "icon": "🎖️"
+    },
+    {
+        "category": "psychology",
+        "fact": "Time flies when you're having fun due to dopamine release.",
+        "icon": "😄"
+    },
+    {
+        "category": "biology",
+        "fact": "Your small intestine is about 7 meters long.",
+        "icon": "🎗️"
+    },
+    {
+        "category": "space",
+        "fact": "Mars has seasons just like Earth, but twice as long.",
+        "icon": "♂️"
+    },
+    {
+        "category": "technology",
+        "fact": "90% of all data ever created was made in the last 2 years.",
+        "icon": "💿"
+    },
+    {
+        "category": "biology",
+        "fact": "Your eyes can distinguish about 10 million different colors.",
+        "icon": "👀"
+    },
+    {
+        "category": "time",
+        "fact": "The average person spends 6 years dreaming.",
+        "icon": "💭"
+    },
+    {
+        "category": "space",
+        "fact": "Jupiter's Great Red Spot has existed for over 350 years.",
+        "icon": "🪐"
+    },
+    {
+        "category": "biology",
+        "fact": "You have more bacterial cells than human cells in your body.",
+        "icon": "🦠"
+    },
+    {
+        "category": "history",
+        "fact": "The 20th century was the most violent in human history.",
+        "icon": "⚔️"
+    },
+    {
+        "category": "psychology",
+        "fact": "Stress can make time feel like it's passing more slowly.",
+        "icon": "😰"
+    },
+    {
+        "category": "biology",
+        "fact": "Your taste buds regenerate every 10-14 days.",
+        "icon": "👅"
+    },
+    {
+        "category": "space",
+        "fact": "Saturn's rings are only about 10 meters thick.",
+        "icon": "🪐"
+    },
+    {
+        "category": "technology",
+        "fact": "The first computer bug was a real moth in 1947.",
+        "icon": "🦋"
+    },
+    {
+        "category": "biology",
+        "fact": "You take about 23,000 breaths per day.",
+        "icon": "🌬️"
+    },
+    {
+        "category": "time",
+        "fact": "You'll spend about 1.5 years looking for lost items.",
+        "icon": "🔍"
+    },
+    {
+        "category": "space",
+        "fact": "Neptune takes 165 Earth years to orbit the Sun.",
+        "icon": "♆"
+    },
+    {
+        "category": "biology",
+        "fact": "Your liver can regenerate even if 75% is removed.",
+        "icon": "🫁"
+    },
+    {
+        "category": "history",
+        "fact": "The oldest living tree is over 5,000 years old.",
+        "icon": "🌲"
+    },
+    {
+        "category": "psychology",
+        "fact": "Novel experiences slow down perceived time.",
+        "icon": "🎪"
+    },
+    {
+        "category": "biology",
+        "fact": "You shed about 600,000 skin particles every hour.",
+        "icon": "🧴"
+    },
+    {
+        "category": "space",
+        "fact": "The Sun is middle-aged at 4.6 billion years old.",
+        "icon": "☀️"
+    },
+    {
+        "category": "technology",
+        "fact": "The first email was sent in 1971.",
+        "icon": "📧"
+    },
+    {
+        "category": "biology",
+        "fact": "Your brain uses 20% of your body's oxygen.",
+        "icon": "🧠"
+    },
+    {
+        "category": "time",
+        "fact": "The average person spends 11 years watching TV.",
+        "icon": "📺"
+    },
+    {
+        "category": "space",
+        "fact": "A day on Venus is longer than a year on Venus.",
+        "icon": "♀️"
+    },
+    {
+        "category": "biology",
+        "fact": "You have about 100,000 miles of blood vessels.",
+        "icon": "🩸"
+    },
+    {
+        "category": "history",
+        "fact": "Cleopatra lived closer to the Moon landing than to the pyramids being built.",
+        "icon": "🏺"
+    },
+    {
+        "category": "psychology",
+        "fact": "Waiting ages us more than working.",
+        "icon": "⌛"
+    },
+    {
+        "category": "biology",
+        "fact": "Your nose can remember 50,000 different scents.",
+        "icon": "👃"
+    },
+    {
+        "category": "space",
+        "fact": "The Milky Way galaxy is 100,000 light-years across.",
+        "icon": "🌌"
+    },
+    {
+        "category": "technology",
+        "fact": "The first website went online in 1991.",
+        "icon": "🌐"
+    },
+    {
+        "category": "biology",
+        "fact": "You produce about 1 liter of mucus per day.",
+        "icon": "🤧"
+    },
+    {
+        "category": "time",
+        "fact": "You'll walk about 110,000 miles in a lifetime.",
+        "icon": "🚶"
+    },
+    {
+        "category": "space",
+        "fact": "There are more stars in the universe than grains of sand on Earth.",
+        "icon": "⭐"
+    },
+    {
+        "category": "biology",
+        "fact": "Your stomach acid can dissolve metal.",
+        "icon": "⚗️"
+    },
+    {
+        "category": "history",
+        "fact": "The last mammoths died out when the pyramids were being built.",
+        "icon": "🦣"
+    },
+    {
+        "category": "psychology",
+        "fact": "Music can alter our perception of time.",
+        "icon": "🎵"
+    },
+    {
+        "category": "biology",
+        "fact": "You have unique fingerprints, tongue print, and ear print.",
+        "icon": "🖐️"
+    },
+    {
+        "category": "space",
+        "fact": "A black hole's gravity is so strong, not even light can escape.",
+        "icon": "⚫"
+    },
+    {
+        "category": "technology",
+        "fact": "The first computer mouse was made of wood.",
+        "icon": "🖱️"
+    },
+    {
+        "category": "biology",
+        "fact": "Your body has enough iron to make a 3-inch nail.",
+        "icon": "🧲"
+    },
+    {
+        "category": "time",
+        "fact": "You'll spend about 4 months of your life tying shoes.",
+        "icon": "👟"
+    },
+    {
+        "category": "space",
+        "fact": "The temperature in space is -270°C.",
+        "icon": "❄️"
+    },
+    {
+        "category": "biology",
+        "fact": "Your ears never stop growing.",
+        "icon": "👂"
+    },
+    {
+        "category": "history",
+        "fact": "Oxford University is older than the Aztec Empire.",
+        "icon": "🎓"
+    },
+    {
+        "category": "psychology",
+        "fact": "Fear makes time seem to slow down.",
+        "icon": "😨"
+    },
+    {
+        "category": "biology",
+        "fact": "You blink about 15-20 times per minute.",
+        "icon": "👁️"
+    },
+    {
+        "category": "space",
+        "fact": "A neutron star is so dense, a teaspoon would weigh a billion tons.",
+        "icon": "✨"
+    },
+    {
+        "category": "technology",
+        "fact": "The first camera phone was invented in 2000.",
+        "icon": "📸"
+    },
+    {
+        "category": "biology",
+        "fact": "Your brain generates enough electricity to power a small light bulb.",
+        "icon": "💡"
+    },
+    {
+        "category": "time",
+        "fact": "You'll spend about 92 days on the phone.",
+        "icon": "📞"
+    },
+    {
+        "category": "space",
+        "fact": "The Sun loses 4 million tons of mass every second.",
+        "icon": "☀️"
+    },
+    {
+        "category": "biology",
+        "fact": "You have about 5 million hair follicles.",
+        "icon": "💇"
+    },
+    {
+        "category": "history",
+        "fact": "The last saber-toothed tiger died out 10,000 years ago.",
+        "icon": "🐯"
+    },
+    {
+        "category": "psychology",
+        "fact": "Boredom makes time feel longer.",
+        "icon": "😐"
+    },
+    {
+        "category": "biology",
+        "fact": "Your DNA would stretch to the Sun and back 600 times.",
+        "icon": "🧬"
+    },
+    {
+        "category": "space",
+        "fact": "There may be 40 billion Earth-like planets in our galaxy.",
+        "icon": "🪐"
+    },
+    {
+        "category": "technology",
+        "fact": "The first YouTube video was uploaded in 2005.",
+        "icon": "📹"
+    },
+    {
+        "category": "biology",
+        "fact": "You have about 200 taste buds on each taste bud papilla.",
+        "icon": "👅"
+    },
+    {
+        "category": "time",
+        "fact": "The average person spends 2 weeks kissing.",
+        "icon": "💋"
+    },
+    {
+        "category": "space",
+        "fact": "Light from the nearest star takes 4 years to reach us.",
+        "icon": "🌟"
+    },
+    {
+        "category": "biology",
+        "fact": "Your bones are 4 times stronger than concrete.",
+        "icon": "🦴"
+    },
+    {
+        "category": "history",
+        "fact": "Dinosaurs ruled Earth for 165 million years.",
+        "icon": "🦖"
+    },
+    {
+        "category": "psychology",
+        "fact": "Meditation can make time seem to expand.",
+        "icon": "🧘"
+    },
+    {
+        "category": "biology",
+        "fact": "Your heart beats about 2.5 billion times in a lifetime.",
+        "icon": "❤️"
+    },
+    {
+        "category": "space",
+        "fact": "The universe is 13.8 billion years old.",
+        "icon": "🌌"
+    },
+    {
+        "category": "technology",
+        "fact": "The first text message was sent in 1992.",
+        "icon": "📲"
+    },
+    {
+        "category": "biology",
+        "fact": "You'll produce enough saliva to fill two swimming pools.",
+        "icon": "💧"
+    },
+    {
+        "category": "time",
+        "fact": "You spend about 1 year of your life deciding what to eat.",
+        "icon": "🍕"
+    },
+    {
+        "category": "space",
+        "fact": "A day on Pluto is 6.4 Earth days long.",
+        "icon": "♇"
+    },
+    {
+        "category": "biology",
+        "fact": "Your brain is 73% water.",
+        "icon": "🧠"
+    },
+    {
+        "category": "history",
+        "fact": "Humans and woolly mammoths coexisted for thousands of years.",
+        "icon": "👤🦣"
+    },
+    {
+        "category": "psychology",
+        "fact": "Flow states make hours feel like minutes.",
+        "icon": "🎨"
+    },
+    {
+        "category": "biology",
+        "fact": "You have about 10 trillion cells in your body.",
+        "icon": "🔬"
+    },
+    {
+        "category": "space",
+        "fact": "The Moon is slowly moving away from Earth.",
+        "icon": "🌙"
+    },
+    {
+        "category": "technology",
+        "fact": "The first digital photo was taken in 1957.",
+        "icon": "🖼️"
+    },
+    {
+        "category": "biology",
+        "fact": "Your eyes can process 36,000 bits of information per hour.",
+        "icon": "👀"
+    },
+    {
+        "category": "time",
+        "fact": "You'll spend about 3 months of life waiting in lines.",
+        "icon": "📋"
+    },
+    {
+        "category": "space",
+        "fact": "There are more trees on Earth than stars in our galaxy.",
+        "icon": "🌳"
+    },
+    {
+        "category": "biology",
+        "fact": "Your brain generates about 70,000 thoughts per day.",
+        "icon": "💭"
+    },
+    {
+        "category": "history",
+        "fact": "The Great Wall of China took 2,000 years to build.",
+        "icon": "🏯"
+    },
+    {
+        "category": "psychology",
+        "fact": "Age 30 is when most people feel their true adulthood begins.",
+        "icon": "👨"
+    },
+    {
+        "category": "biology",
+        "fact": "You'll breathe about 672 million times in a lifetime.",
+        "icon": "🌬️"
+    },
+    {
+        "category": "space",
+        "fact": "A year on Mercury is just 88 Earth days.",
+        "icon": "☿️"
+    },
+    {
+        "category": "technology",
+        "fact": "The first video game was invented in 1958.",
+        "icon": "🎮"
+    },
+    {
+        "category": "biology",
+        "fact": "Your body contains enough carbon to fill 9,000 pencils.",
+        "icon": "✏️"
+    }
+]

@@ -1,0 +1,224 @@
+/* Card Base */
+/* Card Base */
+.card {
+    background: var(--card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    /* Remove: transition: all var(--transition-smooth); */
+    transition: transform var(--transition-smooth), 
+                box-shadow var(--transition-smooth),
+                border-color var(--transition-smooth);
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-blue);
+}
+
+/* Card Variants */
+.card-compact {
+    padding: var(--space-4);
+}
+
+.card-regular {
+    padding: var(--space-8);
+}
+
+.card-spacious {
+    padding: var(--space-12);
+}
+
+/* Specific Card Components */
+.calculator-card {
+    background: var(--card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    /* Remove: transition: all var(--transition-smooth); */
+    transition: transform var(--transition-smooth), 
+                box-shadow var(--transition-smooth),
+                border-color var(--transition-smooth);
+    overflow: hidden;
+    padding: 3rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Apply hover effect to calculator-card as well */
+.calculator-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-blue);
+}
+
+.age-display {
+    /* Remove composes: card; and manually include .card styles */
+    background: var(--card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: all var(--transition-smooth);
+    overflow: hidden;
+    text-align: center;
+    padding: 2.5rem;
+    position: relative;
+}
+
+/* Apply hover effect to age-display as well */
+.age-display:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-blue);
+}
+
+.age-display::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+}
+
+
+.quote-card {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-quote {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+    padding: 1rem 1.2rem;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    animation: miniFadeIn 0.5s ease;
+}
+
+.hero-quote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #4cc9f0, #4361ee);
+}
+
+.age-card {
+    background: var(--card);
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: all 0.3s;
+    border: 1px solid var(--border);
+}
+
+.fun-fact {
+    background: var(--card);
+    padding: 1.8rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    border-left: 4px solid var(--primary-green);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.detail-card {
+    background: var(--card);
+    padding: 1.8rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}
+
+.detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-blue);
+}
+
+.life-calendar {
+    background: var(--card);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    margin-top: 2rem;
+}
+
+.calendar-stat {
+    text-align: center;
+    padding: 1.8rem;
+    background: var(--background);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}
+
+.planet-card {
+    background: var(--card);
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
+.feature-card {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}
+
+.milestone-card {
+    background: var(--card);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s;
+}
+
+.share-options {
+    background: var(--card);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.chart-container {
+    background: var(--card);
+    padding: 1.8rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}

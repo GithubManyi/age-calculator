@@ -1,0 +1,78 @@
+:root {
+    /* Light Theme Colors - Enhanced */
+    --primary-blue: #1a73e8;
+    --primary-blue-dark: #0d62d9;
+    --primary-green: #34a853;
+    --primary-green-dark: #2e8b47;
+    --primary-purple: #8b5cf6;
+    --primary-orange: #f59e0b;
+    --primary-red: #ea4335;
+    
+    /* Light Theme Tokens */
+    --background-light: #f8fafc;
+    --card-light: #ffffff;
+    --text-primary-light: #1a202c;
+    --text-secondary-light: #718096;
+    --border-light: #e2e8f0;
+    --shadow-light: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+    
+    /* Dark Theme Tokens */
+    --background-dark: #0f172a;
+    --card-dark: #1e293b;
+    --card-dark-hover: #2d3748;
+    --text-dark: #f7fafc;
+    --text-secondary-dark: #cbd5e0;
+    --border-dark: #4a5568;
+    --shadow-dark: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.15);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+    --gradient-secondary: linear-gradient(135deg, #1a73e8 0%, #34a853 100%);
+    --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    /* Spacing Scale */
+    --space-unit: 0.25rem;
+    --space-1: calc(1 * var(--space-unit));
+    --space-2: calc(2 * var(--space-unit));
+    --space-3: calc(3 * var(--space-unit));
+    --space-4: calc(4 * var(--space-unit));
+    --space-5: calc(5 * var(--space-unit));
+    --space-6: calc(6 * var(--space-unit));
+    --space-8: calc(8 * var(--space-unit));
+    --space-10: calc(10 * var(--space-unit));
+    --space-12: calc(12 * var(--space-unit));
+    --space-16: calc(16 * var(--space-unit));
+    
+    /* Typography Scale */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.375rem;
+    --radius-base: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.25rem;
+    --radius-2xl: 1.5rem;
+    
+    /* Transitions */
+    --transition-base: 150ms ease;
+    --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Default Theme (Light) */
+    --background: var(--background-light);
+    --card: var(--card-light);
+    --text-primary: var(--text-primary-light);
+    --text-secondary: var(--text-secondary-light);
+    --border: var(--border-light);
+    --shadow: var(--shadow-light);
+}

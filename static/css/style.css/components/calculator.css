@@ -1,0 +1,117 @@
+/* ===== CALCULATOR SECTION ===== */
+
+/* Calculator section - comes AFTER hero */
+.calculator-section {
+    width: 100%;
+    padding: 4rem 2rem; /* Breathing room top/bottom */
+    background: var(--background);
+    position: relative;
+    z-index: 2;
+    margin-top: 0px; /* Optional: Overlap slightly with hero */
+}
+
+/* Calculator wrapper */
+.calculator-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Calculator card */
+.calculator-card {
+    background: var(--card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: transform var(--transition-smooth), 
+                box-shadow var(--transition-smooth),
+                border-color var(--transition-smooth);
+    overflow: hidden;
+    padding: 3rem;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Calculator card hover */
+.calculator-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-blue);
+}
+
+/* Calculator title */
+.calculator-card h2 {
+    color: var(--text-primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Calculator subtitle */
+.calculator-card .subtitle {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Calculator form elements */
+.input-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Calculate button */
+.calculate-btn {
+    width: 100%;
+    padding: 1.2rem;
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-lg);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 2rem 0;
+}
+
+.calculate-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(26, 115, 232, 0.3);
+}
+
+/* Quick dates buttons */
+.quick-dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.quick-btn {
+    padding: 0.8rem 1rem;
+    background: var(--background);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.quick-btn:hover {
+    background: var(--primary-blue);
+    color: white;
+    border-color: var(--primary-blue);
+}

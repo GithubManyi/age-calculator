@@ -1,0 +1,8 @@
+[data-theme="light"] {
+    --background: var(--background-light);
+    --card: var(--card-light);
+    --text-primary: var(--text-primary-light);
+    --text-secondary: var(--text-secondary-light);
+    --border: var(--border-light);
+    --shadow: var(--shadow-light);
+}

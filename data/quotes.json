@@ -1,0 +1,592 @@
+[
+    {
+        "text": "Time is the most valuable thing a man can spend.",
+        "author": "Theophrastus",
+        "category": "wisdom"
+    },
+    {
+        "text": "The older I get, the greater power I seem to have to help the world.",
+        "author": "Louisa May Alcott",
+        "category": "inspiration"
+    },
+    {
+        "text": "Aging is not 'lost youth' but a new stage of opportunity and strength.",
+        "author": "Betty Friedan",
+        "category": "opportunity"
+    },
+    {
+        "text": "The afternoon knows what the morning never suspected.",
+        "author": "Robert Frost",
+        "category": "wisdom"
+    },
+    {
+        "text": "Don't regret growing older. It's a privilege denied to many.",
+        "author": "Anonymous",
+        "category": "gratitude"
+    },
+    {
+        "text": "The great thing about getting older is that you don't lose all the other ages you've been.",
+        "author": "Madeleine L'Engle",
+        "category": "wisdom"
+    },
+    {
+        "text": "Old age is like everything else. To make a success of it, you've got to start young.",
+        "author": "Fred Astaire",
+        "category": "preparation"
+    },
+    {
+        "text": "Time is what we want most, but what we use worst.",
+        "author": "William Penn",
+        "category": "philosophy"
+    },
+    {
+        "text": "At 20, we worry about what others think of us. At 40, we don't care what they think. At 60, we discover they haven't been thinking about us at all.",
+        "author": "Ann Landers",
+        "category": "wisdom"
+    },
+    {
+        "text": "The beauty that addresses itself to the eyes is only the spell of the moment.",
+        "author": "Honoré de Balzac",
+        "category": "beauty"
+    },
+    {
+        "text": "You can't help getting older, but you don't have to get old.",
+        "author": "George Burns",
+        "category": "attitude"
+    },
+    {
+        "text": "Time is the longest distance between two places.",
+        "author": "Tennessee Williams",
+        "category": "philosophy"
+    },
+    {
+        "text": "Old age is the most unexpected of all the things that happen to a man.",
+        "author": "Leon Trotsky",
+        "category": "reality"
+    },
+    {
+        "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "author": "Chinese Proverb",
+        "category": "motivation"
+    },
+    {
+        "text": "Age is strictly a case of mind over matter. If you don't mind, it doesn't matter.",
+        "author": "Jack Benny",
+        "category": "humor"
+    },
+    {
+        "text": "Lost time is never found again.",
+        "author": "Benjamin Franklin",
+        "category": "wisdom"
+    },
+    {
+        "text": "Nobody grows old merely by living a number of years. We grow old by deserting our ideals.",
+        "author": "Samuel Ullman",
+        "category": "inspiration"
+    },
+    {
+        "text": "The afternoon of human life must also have a significance of its own.",
+        "author": "Carl Jung",
+        "category": "wisdom"
+    },
+    {
+        "text": "Old age is like a plane flying through a storm. Once you're aboard, there's nothing you can do.",
+        "author": "Golda Meir",
+        "category": "reality"
+    },
+    {
+        "text": "Time flies over us, but leaves its shadow behind.",
+        "author": "Nathaniel Hawthorne",
+        "category": "philosophy"
+    },
+    {
+        "text": "The older I grow, the more I distrust the familiar doctrine that age brings wisdom.",
+        "author": "H.L. Mencken",
+        "category": "honesty"
+    },
+    {
+        "text": "A man is not old until regrets take the place of dreams.",
+        "author": "John Barrymore",
+        "category": "dreams"
+    },
+    {
+        "text": "Time is the wisest counselor of all.",
+        "author": "Pericles",
+        "category": "wisdom"
+    },
+    {
+        "text": "To be seventy years young is sometimes far more cheerful and hopeful than to be forty years old.",
+        "author": "Oliver Wendell Holmes Jr.",
+        "category": "youthfulness"
+    },
+    {
+        "text": "The years teach much which the days never know.",
+        "author": "Ralph Waldo Emerson",
+        "category": "wisdom"
+    },
+    {
+        "text": "Grow old along with me! The best is yet to be.",
+        "author": "Robert Browning",
+        "category": "optimism"
+    },
+    {
+        "text": "Old age: the crown of life, our play's last act.",
+        "author": "Marcus Tullius Cicero",
+        "category": "philosophy"
+    },
+    {
+        "text": "Time is a created thing. To say 'I don't have time' is like saying 'I don't want to.'",
+        "author": "Lao Tzu",
+        "category": "wisdom"
+    },
+    {
+        "text": "The first forty years of life give us the text; the next thirty supply the commentary.",
+        "author": "Arthur Schopenhauer",
+        "category": "wisdom"
+    },
+    {
+        "text": "No one is so old as to think they cannot live one more year.",
+        "author": "Cicero",
+        "category": "hope"
+    },
+    {
+        "text": "Age appears to be best in four things: old wood best to burn, old wine to drink, old friends to trust, and old authors to read.",
+        "author": "Francis Bacon",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a brisk wind, for each hour it brings something new.",
+        "author": "Paracelsus",
+        "category": "change"
+    },
+    {
+        "text": "How old would you be if you didn't know how old you are?",
+        "author": "Satchel Paige",
+        "category": "perspective"
+    },
+    {
+        "text": "The longer I live, the more I realize the impact of attitude on life.",
+        "author": "Charles Swindoll",
+        "category": "attitude"
+    },
+    {
+        "text": "Time is the moving image of eternity.",
+        "author": "Plato",
+        "category": "philosophy"
+    },
+    {
+        "text": "Old age is fifteen years older than I am.",
+        "author": "Oliver Wendell Holmes Sr.",
+        "category": "perspective"
+    },
+    {
+        "text": "Years wrinkle the skin, but to give up enthusiasm wrinkles the soul.",
+        "author": "Samuel Ullman",
+        "category": "inspiration"
+    },
+    {
+        "text": "Time is the school in which we learn, time is the fire in which we burn.",
+        "author": "Delmore Schwartz",
+        "category": "philosophy"
+    },
+    {
+        "text": "The aging process has you firmly in its grasp if you never get the urge to throw a snowball.",
+        "author": "Doug Larson",
+        "category": "youthfulness"
+    },
+    {
+        "text": "Time is the most undefinable yet paradoxical of things; the past is gone, the future is not come, and the present becomes the past even while we attempt to define it.",
+        "author": "Charles Caleb Colton",
+        "category": "philosophy"
+    },
+    {
+        "text": "When I was young I was amazed at how adults could sit for hours without talking. Now I'm older and I know. 'Tired' is a conversation.",
+        "author": "Phyllis Diller",
+        "category": "humor"
+    },
+    {
+        "text": "Time is a dressmaker specializing in alterations.",
+        "author": "Faith Baldwin",
+        "category": "change"
+    },
+    {
+        "text": "Old age isn't so bad when you consider the alternative.",
+        "author": "Maurice Chevalier",
+        "category": "humor"
+    },
+    {
+        "text": "The clock talked loud. I threw it away, it scared me what it talked.",
+        "author": "Tillie Olsen",
+        "category": "anxiety"
+    },
+    {
+        "text": "Age considers; youth ventures.",
+        "author": "Rabindranath Tagore",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a river which sweeps me along, but I am the river.",
+        "author": "Jorge Luis Borges",
+        "category": "philosophy"
+    },
+    {
+        "text": "Aging gracefully is about accepting the passage of time and the beauty of each stage.",
+        "author": "Cindy Crawford",
+        "category": "beauty"
+    },
+    {
+        "text": "Time you enjoyed wasting was not wasted.",
+        "author": "John Lennon",
+        "category": "philosophy"
+    },
+    {
+        "text": "The older I get, the more I see that there is no end to learning.",
+        "author": "Maya Angelou",
+        "category": "learning"
+    },
+    {
+        "text": "Time is what keeps everything from happening at once.",
+        "author": "Ray Cummings",
+        "category": "philosophy"
+    },
+    {
+        "text": "The heart that loves is always young.",
+        "author": "Greek Proverb",
+        "category": "love"
+    },
+    {
+        "text": "Time is a great teacher, but unfortunately it kills all its pupils.",
+        "author": "Hector Berlioz",
+        "category": "humor"
+    },
+    {
+        "text": "Youth is the gift of nature, but age is a work of art.",
+        "author": "Stanislaw Jerzy Lec",
+        "category": "beauty"
+    },
+    {
+        "text": "The great advantage of being eighty is that one can take a longer view.",
+        "author": "Dame Freya Stark",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a storm in which we are all lost.",
+        "author": "William Carlos Williams",
+        "category": "philosophy"
+    },
+    {
+        "text": "You can't turn back the clock. But you can wind it up again.",
+        "author": "Bonnie Prudden",
+        "category": "motivation"
+    },
+    {
+        "text": "The secret of genius is to carry the spirit of the child into old age.",
+        "author": "Aldous Huxley",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is the longest distance between two places.",
+        "author": "Tennessee Williams",
+        "category": "philosophy"
+    },
+    {
+        "text": "Old age is like climbing a mountain. You climb from ledge to ledge. The higher you get, the more tired and breathless you become, but your views become more extensive.",
+        "author": "Ingmar Bergman",
+        "category": "perspective"
+    },
+    {
+        "text": "Time is a circus, always packing up and moving away.",
+        "author": "Ben Hecht",
+        "category": "philosophy"
+    },
+    {
+        "text": "At fifty, everyone has the face he deserves.",
+        "author": "George Orwell",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent.",
+        "author": "Carl Sandburg",
+        "category": "wisdom"
+    },
+    {
+        "text": "The older I get, the more I realize that the greatest luxury is time.",
+        "author": "Michael Kors",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a sandpile we run our fingers in.",
+        "author": "Carl Sandburg",
+        "category": "philosophy"
+    },
+    {
+        "text": "Age is opportunity no less than youth itself, though in another dress.",
+        "author": "Henry Wadsworth Longfellow",
+        "category": "opportunity"
+    },
+    {
+        "text": "Time is the devourer of all things.",
+        "author": "Ovid",
+        "category": "philosophy"
+    },
+    {
+        "text": "Old age is the verdict of life.",
+        "author": "Amelia E. Barr",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a game played beautifully by children.",
+        "author": "Heraclitus",
+        "category": "philosophy"
+    },
+    {
+        "text": "The afternoon of life is just as full of meaning as the morning; only, its meaning and purpose are different.",
+        "author": "Carl Jung",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is the substance from which I am made. Time is a river which carries me along, but I am the river.",
+        "author": "Jorge Luis Borges",
+        "category": "philosophy"
+    },
+    {
+        "text": "Age is not important unless you're a cheese.",
+        "author": "Helen Hayes",
+        "category": "humor"
+    },
+    {
+        "text": "Time is the most valuable thing a man can spend.",
+        "author": "Diogenes",
+        "category": "wisdom"
+    },
+    {
+        "text": "The comfort of being old is that you can say what you think.",
+        "author": "John Ruskin",
+        "category": "honesty"
+    },
+    {
+        "text": "Time is the fairest and toughest judge.",
+        "author": "Edgar Quinet",
+        "category": "wisdom"
+    },
+    {
+        "text": "Old age is like a plane flying through a storm. Once you're aboard, there's nothing you can do.",
+        "author": "Golda Meir",
+        "category": "reality"
+    },
+    {
+        "text": "Time is the moving image of eternity.",
+        "author": "Plato",
+        "category": "philosophy"
+    },
+    {
+        "text": "Age is a high price to pay for maturity.",
+        "author": "Tom Stoppard",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a storm in which we are all lost.",
+        "author": "William Carlos Williams",
+        "category": "philosophy"
+    },
+    {
+        "text": "The older I grow, the more I listen to people who don't talk much.",
+        "author": "Germain G. Glidden",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is the longest distance between two places.",
+        "author": "Tennessee Williams",
+        "category": "philosophy"
+    },
+    {
+        "text": "One of the many things nobody ever tells you about middle age is that it's such a nice change from being young.",
+        "author": "Dorothy Canfield Fisher",
+        "category": "comfort"
+    },
+    {
+        "text": "Time is the school in which we learn, time is the fire in which we burn.",
+        "author": "Delmore Schwartz",
+        "category": "philosophy"
+    },
+    {
+        "text": "The older I get, the more I believe that the greatest kindness is acceptance.",
+        "author": "George Burns",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a dressmaker specializing in alterations.",
+        "author": "Faith Baldwin",
+        "category": "change"
+    },
+    {
+        "text": "Old age is like everything else. To make a success of it, you've got to start young.",
+        "author": "Theodore Roosevelt",
+        "category": "preparation"
+    },
+    {
+        "text": "Time is a river that flows through the universe, and we are but leaves upon its surface.",
+        "author": "Marcus Aurelius",
+        "category": "philosophy"
+    },
+    {
+        "text": "The great thing about getting older is that you become more mellow.",
+        "author": "Julie Andrews",
+        "category": "peace"
+    },
+    {
+        "text": "Time is the most undefinable yet paradoxical of things.",
+        "author": "Charles Caleb Colton",
+        "category": "philosophy"
+    },
+    {
+        "text": "Age is an issue of mind over matter. If you don't mind, it doesn't matter.",
+        "author": "Mark Twain",
+        "category": "humor"
+    },
+    {
+        "text": "Time is a created thing. To say 'I don't have time' is like saying 'I don't want to.'",
+        "author": "Lao Tzu",
+        "category": "wisdom"
+    },
+    {
+        "text": "Old age is the most unexpected of all the things that happen to a man.",
+        "author": "Leon Trotsky",
+        "category": "reality"
+    },
+    {
+        "text": "Time flies over us, but leaves its shadow behind.",
+        "author": "Nathaniel Hawthorne",
+        "category": "philosophy"
+    },
+    {
+        "text": "The first forty years of life give us the text; the next thirty supply the commentary.",
+        "author": "Arthur Schopenhauer",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is the wisest counselor of all.",
+        "author": "Pericles",
+        "category": "wisdom"
+    },
+    {
+        "text": "To be seventy years young is sometimes far more cheerful and hopeful than to be forty years old.",
+        "author": "Oliver Wendell Holmes Jr.",
+        "category": "youthfulness"
+    },
+    {
+        "text": "Time is a brisk wind, for each hour it brings something new.",
+        "author": "Paracelsus",
+        "category": "change"
+    },
+    {
+        "text": "How old would you be if you didn't know how old you are?",
+        "author": "Satchel Paige",
+        "category": "perspective"
+    },
+    {
+        "text": "The longer I live, the more I realize the impact of attitude on life.",
+        "author": "Charles Swindoll",
+        "category": "attitude"
+    },
+    {
+        "text": "Time is the moving image of eternity.",
+        "author": "Plato",
+        "category": "philosophy"
+    },
+    {
+        "text": "Old age is fifteen years older than I am.",
+        "author": "Oliver Wendell Holmes Sr.",
+        "category": "perspective"
+    },
+    {
+        "text": "Years wrinkle the skin, but to give up enthusiasm wrinkles the soul.",
+        "author": "Samuel Ullman",
+        "category": "inspiration"
+    },
+    {
+        "text": "Time is the school in which we learn, time is the fire in which we burn.",
+        "author": "Delmore Schwartz",
+        "category": "philosophy"
+    },
+    {
+        "text": "The aging process has you firmly in its grasp if you never get the urge to throw a snowball.",
+        "author": "Doug Larson",
+        "category": "youthfulness"
+    },
+    {
+        "text": "Time is the most undefinable yet paradoxical of things; the past is gone, the future is not come, and the present becomes the past even while we attempt to define it.",
+        "author": "Charles Caleb Colton",
+        "category": "philosophy"
+    },
+    {
+        "text": "When I was young I was amazed at how adults could sit for hours without talking. Now I'm older and I know. 'Tired' is a conversation.",
+        "author": "Phyllis Diller",
+        "category": "humor"
+    },
+    {
+        "text": "Time is a dressmaker specializing in alterations.",
+        "author": "Faith Baldwin",
+        "category": "change"
+    },
+    {
+        "text": "Old age isn't so bad when you consider the alternative.",
+        "author": "Maurice Chevalier",
+        "category": "humor"
+    },
+    {
+        "text": "The clock talked loud. I threw it away, it scared me what it talked.",
+        "author": "Tillie Olsen",
+        "category": "anxiety"
+    },
+    {
+        "text": "Age considers; youth ventures.",
+        "author": "Rabindranath Tagore",
+        "category": "wisdom"
+    },
+    {
+        "text": "Time is a river which sweeps me along, but I am the river.",
+        "author": "Jorge Luis Borges",
+        "category": "philosophy"
+    },
+    {
+        "text": "Aging gracefully is about accepting the passage of time and the beauty of each stage.",
+        "author": "Cindy Crawford",
+        "category": "beauty"
+    },
+    {
+        "text": "Time you enjoyed wasting was not wasted.",
+        "author": "John Lennon",
+        "category": "philosophy"
+    },
+    {
+        "text": "The older I get, the more I see that there is no end to learning.",
+        "author": "Maya Angelou",
+        "category": "learning"
+    },
+    {
+        "text": "Time is what keeps everything from happening at once.",
+        "author": "Ray Cummings",
+        "category": "philosophy"
+    },
+    {
+        "text": "The heart that loves is always young.",
+        "author": "Greek Proverb",
+        "category": "love"
+    },
+    {
+        "text": "Time is a great teacher, but unfortunately it kills all its pupils.",
+        "author": "Hector Berlioz",
+        "category": "humor"
+    },
+    {
+        "text": "Youth is the gift of nature, but age is a work of art.",
+        "author": "Stanislaw Jerzy Lec",
+        "category": "beauty"
+    },
+    {
+        "text": "The great advantage of being eighty is that one can take a longer view.",
+        "author": "Dame Freya Stark",
+        "category": "wisdom"
+    }
+]
